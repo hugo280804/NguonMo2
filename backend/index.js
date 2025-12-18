@@ -30,7 +30,7 @@ app.post("/products", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Mini Shop Backend Running");
+  res.send("Shop Võ Anh Tuấn ");
 });
 
 const PORT = process.env.PORT || 3000;
